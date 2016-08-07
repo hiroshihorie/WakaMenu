@@ -34,7 +34,7 @@
     _menu.button.target = self;
     _menu.button.action = @selector(menuAction:);
     
-    _timer = [NSTimer scheduledTimerWithTimeInterval:10.0f
+    _timer = [NSTimer scheduledTimerWithTimeInterval:60.0f
                                               target:self
                                             selector:@selector(timerAction:)
                                             userInfo:nil
